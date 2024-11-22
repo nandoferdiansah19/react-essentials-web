@@ -12,7 +12,7 @@ function App() {
     setSelectedTopic(e.target.textContent.toLowerCase());
   };
   return (
-    <div>
+    <>
       <Header />
       <main>
         <section id="core-concepts">
@@ -65,7 +65,7 @@ function App() {
           </div>
         </section>
       </main>
-    </div>
+    </>
   );
 }
 
